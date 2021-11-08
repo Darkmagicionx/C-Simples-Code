@@ -12,8 +12,6 @@ int main()
 		return 1;
 	}
 	
-	
-	
 	char buffer[BUFFER_SIZE];
 	int reads = 0;
 	do
