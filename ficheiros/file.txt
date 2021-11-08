@@ -7,7 +7,7 @@ Leitura de ficheiros de tecxto em C Linha a Linha com contagem de palavras.
 int main()
 {
 	// r - Opens to read
-	FILE* fp = fopen("2file.c", "r");
+	FILE* fp = fopen("file.txt", "r");
 	
 	if(fp == NULL)
 	{

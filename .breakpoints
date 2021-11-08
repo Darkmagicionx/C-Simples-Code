@@ -1,10 +1,26 @@
 {
   "files": {
+    "Operações bit a bit/bitAbit2.c": [
+      {
+        "id": "24ad42fa-89aa-4196-84c8-f1c8a274c683",
+        "line": 1,
+        "version": 0,
+        "index": 0
+      }
+    ],
+    "bitAbit.c": [
+      {
+        "id": "c6394af8-57f8-40e1-9fbb-60746b30aeba",
+        "line": 1,
+        "version": 1,
+        "index": 0
+      }
+    ],
     "main.c": [
       {
         "id": "422cb2a6-00c0-47e8-8505-6149d5724b0f",
         "line": 6,
-        "version": 1,
+        "version": 11,
         "index": 76
       }
     ]
