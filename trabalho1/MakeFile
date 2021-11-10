@@ -1,0 +1,27 @@
+MYFLAGS=-g -Wall -c
+EXECUTABLENAME=a.out
+
+all: CharReadOnes.o prog.o separadorString.o utf8Len.o
+	gcc CharReadOnes.o prog.o separadorString.o utf8Len.o -o $(EXECUTABLENAME)
+
+CharReadOnes.o:CharReadOnes.c
+	gcc $(MYFLAGS) CharReadOnes.c
+	
+separadorString.o: separadorString.c
+	gcc $(MYFLAGS) separadorString.c
+	
+prog.o: prog.c
+	gcc $(MYFLAGS) prog.c
+	
+utf8Len.o: utf8Len.o
+	gcc $(MYFLAGS) utf8Len.o
+
+run: all
+	$(EXECUTABLENAME)
+	
+debug: all	
+	insight $(EXECUTABLENAME)
+
+clean:
+	-rm *.o
+	-rm *.out

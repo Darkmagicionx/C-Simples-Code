@@ -27,6 +27,7 @@ int main()
 	
 	while(1)
 	{
+    printf("inttoduza o numero: \n");
 		if(scanf("%d", &num) != 1) 
 			return 0;
 			
@@ -34,5 +35,6 @@ int main()
 	}
 	
 	return 0;
+
 }
 	

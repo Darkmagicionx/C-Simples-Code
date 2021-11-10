@@ -4,7 +4,7 @@
       {
         "id": "24ad42fa-89aa-4196-84c8-f1c8a274c683",
         "line": 1,
-        "version": 0,
+        "version": 44,
         "index": 0
       }
     ],
@@ -22,6 +22,14 @@
         "line": 6,
         "version": 11,
         "index": 76
+      }
+    ],
+    "trabalho1/CharReadOnes.h": [
+      {
+        "id": "88ffdb02-256d-4898-ae2f-b9b1b5f9f08b",
+        "line": 1,
+        "version": 49,
+        "index": 0
       }
     ]
   }
